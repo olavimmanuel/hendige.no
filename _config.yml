@@ -88,7 +88,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "En hendig kar som får til det meste."
+  bio              : "Ein hendige kar som får til det meste."
   location         : "Stavanger"
   email            : "andreas.eliassen@gmail.com"
   uri              : "http://hendige.no"
