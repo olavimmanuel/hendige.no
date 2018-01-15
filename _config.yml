@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "nb-NO"
 title                    : "Hendige"
 title_separator          : "-"
-name                     : &name "Andreas Rokstad Eliassen" # &name is a YAML anchor which can be *referenced later
+name                     : &name "Andreas R. Eliassen" # &name is a YAML anchor which can be *referenced later
 description              : &description "Oversikt over hva Andreas gjør med firmaet sitt."
 url                      : "http://hendige.no" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -63,7 +63,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : &facebook "andreasre"
+  username               : &facebook "hendige.no"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -74,7 +74,7 @@ social:
   name                   : "ANDREAS R. ELIASSEN" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=919121653"
-    - "https://fb.me/andreasre"
+    - "https://fb.me/hendige.no"
     - "http://hendige.no"
 
 # Analytics
@@ -88,9 +88,9 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ein hendige kar som får til det meste."
+  bio              : "Org. nr. 919 121 653 MVA<br/><br/>Ein hendige kar som får til det meste."
   location         : "Stavanger"
-  email            : "andreas.eliassen@gmail.com"
+  email            : "eliassen@lyse.net"
   uri              : "http://hendige.no"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
