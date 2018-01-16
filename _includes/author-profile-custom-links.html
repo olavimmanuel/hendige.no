@@ -1,0 +1,23 @@
+<!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+
+{% if author.org %}
+  <li>
+    <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr={{ author.org | remove:' ' }}" itemprop="sameAs">
+      <i class="fa fa-fw fa-building" aria-hidden="true"></i> Brønnøysund
+    </a>
+  </li>
+{% endif %}
+
+{% if author.proff %}
+  <li>
+    <a href="https://www.proff.no/selskap/{{ author.proff }}" itemprop="sameAs">
+      <i class="fas fa-fw fa-share" aria-hidden="true"></i> Proff
+    </a>
+  </li>
+{% endif %}
