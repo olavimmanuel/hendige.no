@@ -12,14 +12,14 @@ feature_row:
   - image_path: /assets/images/IMG_6325.jpg
     alt: "Grovarbeid"
     title: "Grovarbeid"
-    excerpt: "Vi gjør oppdrag i alt fra bygging av ringmurer til fjerning av hekker"
+    excerpt: "Vi gjør oppdrag i alt fra bygging av ringmurer til fjerning av hekker."
     url: "/"
     btn_class: "btn--primary"
     btn_label: "Finn ut mer"
   - image_path: /assets/images/IMG_6325.jpg
     alt: "Renovering & nyoppføring"
     title: "Renovering & nyoppføring"
-    excerpt: "Vi oppfører enkle nybygg som garasjer, boder og hagestuer. Vi gjør også opppussing."
+    excerpt: "Vi oppfører enkle nybygg som garasjer, boder og hagestuer og pusser opp det meste."
     url: "/"
     btn_class: "btn--primary"
     btn_label: "Finn ut mer"
@@ -31,7 +31,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Finn ut mer"
 intro:
-  - excerpt: 'Følg med på hva vi holder på med &nbsp; [<i class="fab fa-instagram"></i> @hendige.no](https://instagram.com/hendige.no){: .btn .btn--primary} [<i class="fab fa-facebook"></i> @hendige.no](https://www.facebook.com/hendige.no){: .btn .btn--facebook}'
+  - excerpt: 'Få med deg hva vi holder på med &nbsp; [<i class="fab fa-instagram"></i> @hendige.no](https://instagram.com/hendige.no){: .btn .btn--primary} [<i class="fab fa-facebook"></i> @hendige.no](https://www.facebook.com/hendige.no){: .btn .btn--facebook}'
 last:
   - excerpt: 'Vi leier også ut arbeidskraft til bedrifter og private.'
 ---
