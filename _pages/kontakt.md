@@ -21,6 +21,6 @@ feature_row:
 
 Ta gjerne kontakt for en gratis og uforpliktene befaring eller for spørsmål, så blir vi eige om veien videre.
 
-{% include gallery id="kontakt_gallery" caption="Ta kontakt så finner vi ut veien videre." %}
+{% include gallery id="kontakt_gallery" caption="Ta kontakt så finner vi veien videre." %}
 
 {% include feature_row type="center" %}
