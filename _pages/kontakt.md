@@ -12,11 +12,15 @@ kontakt_gallery:
   - url: /assets/images/handshake.jpg
     image_path: /assets/images/handshake.jpg
     alt: "Handshake by Aidan Jones CC:BY-SA"
+layout: single
+author_profile: true
 toc: false
+feature_row:
+  - excerpt: '[<i class="fas fa-envelope"></i> Send oss en mail](mailto:eliassen@lyse.net){: .btn .btn--facebook} [<i class="fas fa-phone-square"></i> Ring oss](tel://+4798690467){: .btn .btn--facebook}'
 ---
 
 Ta gjerne kontakt for en gratis og uforpliktene befaring eller for spørsmål, så blir vi eige om veien videre.
 
 {% include gallery id="kontakt_gallery" caption="Ta kontakt så finner vi ut veien videre." %}
 
-[<i class="fas fa-envelope"></i> Send oss en mail](mailto:eliassen@lyse.net){: .btn .btn--facebook}' [<i class="fas fa-phone-square"></i> Ring oss](tel://+4798690467){: .btn .btn--facebook}'
+{% include feature_row type="center" %}
