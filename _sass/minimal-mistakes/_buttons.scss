@@ -1,0 +1,120 @@
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+
+/*
+   Default button
+   ========================================================================== */
+
+.btn {
+  /* default */
+  display: inline-block;
+  margin-bottom: 0.25em;
+  padding: 0.5em 1em;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: $border-radius;
+  cursor: pointer;
+
+  .icon {
+    margin-right: 0.5em;
+  }
+
+  .icon + .hidden {
+    margin-left: -0.5em; /* override for hidden text*/
+  }
+
+  /* button colors */
+  $buttoncolors:
+  (primary, $primary-color),
+  (inverse, #fff),
+  (light-outline, transparent),
+  (success, $success-color),
+  (warning, $warning-color),
+  (danger, $danger-color),
+  (info, $info-color),
+  (facebook, $facebook-color),
+  (twitter, $twitter-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-new-color),
+  (linkedin, $linkedin-color);
+
+  @each $buttoncolor, $color in $buttoncolors {
+    &--#{$buttoncolor} {
+      @include yiq-contrasted($color);
+      @if ($buttoncolor == inverse) {
+        border: 1px solid $border-color;
+      }
+      @if ($buttoncolor == light-outline) {
+        border: 1px solid #fff;
+      }
+      @if ($buttoncolor == instagram) {
+	      background:
+	        /////// Use radial gradients to get the rounded
+	        /////// gradient effect in each corner
+
+	        // left bottom
+	        radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+	        radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+	        // left top
+	        radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+	        radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+	        //  right top
+	        radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+	        radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+	        // right bottom
+	        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+	        /////// create a base coat to smooth
+	        /////// corner gradients
+	        linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+      }
+
+      &:hover {
+        @include yiq-contrasted(mix(#000, $color, 20%));
+      }
+
+      &:visited {
+        @include yiq-contrasted($color);
+      }
+    }
+  }
+
+  /* fills width of parent container */
+  &--block {
+    display: block;
+    width: 100%;
+
+    + .btn--block {
+      margin-top: 0.25em;
+    }
+  }
+
+  /* disabled */
+  &--disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    box-shadow: none;
+    opacity: 0.65;
+  }
+
+  /* extra large button */
+  &--x-large {
+    font-size: $type-size-4;
+  }
+
+  /* large button */
+  &--large {
+    font-size: $type-size-5;
+  }
+
+  /* small button */
+  &--small {
+    font-size: $type-size-7;
+  }
+}
