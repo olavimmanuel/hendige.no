@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/garasjevinter.JPG
   cta_label: "<i class='fa fa-address-card'></i> Kontakt"
-  cta_url: "/"
+  cta_url: "/kontakt/"
   caption:
 excerpt: 'Ein hendige kar som får til det meste.'
 feature_row:
