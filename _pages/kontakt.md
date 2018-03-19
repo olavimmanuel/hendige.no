@@ -16,7 +16,7 @@ layout: single
 author_profile: true
 toc: false
 feature_row:
-  - excerpt: '[<i class="fas fa-envelope"></i> Send oss en mail](mailto:eliassen@lyse.net){: .btn .btn--facebook} [<i class="fas fa-phone-square"></i> Ring oss](tel://+4798690467){: .btn .btn--facebook}'
+  - excerpt: '[<i class="fas fa-envelope"></i> Send oss en mail](mailto:eliassen@lyse.net){: .btn .btn--success .btn--large} [<i class="fas fa-phone-square"></i> Ring oss](tel://+4798690467){: .btn .btn--success .btn--large}'
 ---
 
 Ta gjerne kontakt for en gratis og uforpliktene befaring eller for spørsmål, så blir vi eige om veien videre.
