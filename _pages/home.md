@@ -4,7 +4,7 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/garasjevinter.JPG
-  cta_label: "<i class='fa fa-address-card'></i> Ta kontakt"
+  cta_label: "<i class='fa fa-address-card'></i> Kontakt"
   cta_url: "/"
   caption:
 excerpt: 'Ein hendige kar som får til det meste.'
@@ -19,7 +19,7 @@ feature_row:
   - image_path: /assets/images/nyoppføringgarasje.jpg
     alt: "Renovering & nyoppføring"
     title: "Renovering & nyoppføring"
-    excerpt: "Vi oppfører enkle nybygg som garasjer, boder og hagestuer og pusser opp det meste."
+    excerpt: "Vi oppfører enkle nybygg som garasjer, boder og hagestuer. Vi pusser også opp det meste."
     url: "/"
     btn_class: "btn--primary"
     btn_label: "Finn ut mer"
