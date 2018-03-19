@@ -87,11 +87,11 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/profilbilde2.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Org. nr. 919 121 653 MVA<br/><br/>Ein hendige kar som får til det meste."
   location         : "Stavanger"
   email            : "eliassen@lyse.net"
-  uri              : "http://hendige.no"
+  uri              : # "http://hendige.no"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
