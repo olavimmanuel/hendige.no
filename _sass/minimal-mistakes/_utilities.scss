@@ -232,7 +232,9 @@ body:hover .visually-hidden button {
 
   .fa-instagram {
     color: $instagram-old-color;
-    /*background:
+    /* NO COLOR
+    color: $instagram-color;
+    background:
       /////// Use radial gradients to get the rounded
       /////// gradient effect in each corner
 
@@ -266,6 +268,7 @@ body:hover .visually-hidden button {
     //margin-right: 0.125em;
     padding-left: 0.09375em;
     padding-right: 0.093725em;
+    NO COLOR */
     
     /*&:before,
     &:after {
@@ -276,6 +279,7 @@ body:hover .visually-hidden button {
       border: .075em solid;
     }*/
 
+    /* NO COLOR
     &:before {
       border-radius: inherit;
       height: .75em;
@@ -289,7 +293,9 @@ body:hover .visually-hidden button {
       height: .4em;
       transform: translate(.3em, .3em);
       width: .4em;    
-    }*/
+    }
+    
+    NO COLOR */
   }
 
   .fa-lastfm,
