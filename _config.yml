@@ -193,6 +193,7 @@ timezone: Europe/Oslo # https://en.wikipedia.org/wiki/List_of_tz_database_time_z
 # Plugins (previously gems:)
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -202,6 +203,7 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
